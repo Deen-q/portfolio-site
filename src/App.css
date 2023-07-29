@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
 
 * {
-  font-family: 'IM FELL French Canon', sans-serif;
+    font-family:'IM FELL French Canon', sans-serif
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
 
 .NavBar {
-  background-color: bisque;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  padding: 1% 0;
-}
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 1%;
+  }
 
 .NavBarButtons {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
+  padding-bottom: 1%;
 }
 
 button {
@@ -29,54 +30,67 @@ button {
   cursor: pointer;
 }
 
-.Segment1,
-.Segment2,
-.Segment3,
-.Segment4 {
-  height: 100vh;
-}
-
 .Segment1 {
-  background-color: rgb(127, 185, 255);
-  display: flex;
-  align-items: center;
-}
+    background-color: rgb(127, 185, 255);
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 10vh);
+    /* padding-top: 8vh; */
+    padding-top: calc(10vh + 1px);
+  }
+  
+  .TextContainer {
+    padding-left: 15%;
+  }
 
-.TextContainer {
-  padding-left: 15%;
-  padding-top: 20px;
-}
+  .Segment1 .TextContainer {
+    /* ... (your other CSS properties) ... */
+    padding-top: 20vh; /* Adjust the padding to control the space between top and content */
+  }
+  
+  .ImageContainer {
+    display: flex;
+    justify-content: flex-end; /*Align with right of container*/
+    flex-grow: 1; /*Pushes image to right*/
+  }
 
-.ImageContainer {
-  display: flex;
-  justify-content: flex-end;
-  flex-grow: 1;
-}
+  .AvatarImg {
+    width: 30%;
+    padding-right: 20%;
+  }
 
-.AvatarImg {
-  width: 30%;
-  padding-right: 20px;
-}
+  .githubCat {
+    width: 30%;
+    cursor: pointer;
+  }
 
-.githubCat,
-.linkedinIcon {
-  width: 30%;
-  cursor: pointer;
-}
+  .linkedinIcon {
+    width: 30%;
+    cursor: pointer;
+  }
 
-.Segment2 {
-  background-color: rgb(145, 192, 250);
-}
+  .Segment2,
+  .Segment4 {
+    background-color:rgb(145, 192, 250);
+    height:100vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
+  }
 
-.Segment3 {
-  background-color: rgb(127, 185, 255);
-}
+  .Segment2,
+  .Segment3,
+  .Segment4 {
+    height: calc(100vh - 10vh);
+    /* Adjust the height to fit below the NavBar */
+    padding-top: calc(10vh + 1px);
+  }
+  
+  .Segment2 h1, 
+  .Segment3 h1, 
+  .Segment4 h1 {
+    margin: 0; /* remove the white streak*/
+    padding-top: 20%;
+  }
 
-.Segment4 {
-  background-color: rgb(145, 192, 250);
-}
-
-.TextContainer {
-  padding-left: 15%;
-  padding-top: 20px;
-}
+  .Segment3 {
+    background-color:rgb(127, 185, 255);
+    height: 100vh;
+  }
