@@ -21,9 +21,8 @@ html, body {
 .Segment1 {
     background-color: rgb(127, 185, 255);
     display: flex;
-    /*justify-content: space-between; /* Spread the content across the container */
     align-items: center;
-    height: 70vh; /*the last 30vh could be Segment2? To get that Tesla site feel?*/
+    height: 90vh; /*the last 30vh could be Segment2? To get that Tesla site feel?*/
   }
   
   .TextContainer {
@@ -41,12 +40,16 @@ html, body {
     padding-right: 5%;
   }
 
-  .Segment2 {
-    background-color: rgb(127, 185, 255);
-    height: 20vh; /*10 + 70 + 20 = the full page*/
-  }
 
-  .Segment3 {
+
+  .Segment2 {
     background-color:aquamarine;
     height: 90vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
   }
+  
+  .Segment2 h1 {
+    margin: 0; /* remove the white streak*/
+    padding-top: 10%;
+  }
+
+  

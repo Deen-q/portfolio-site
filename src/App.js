@@ -20,10 +20,12 @@ export default function App() {
         </div>
     </div> {/*End of Segment1 div*/}
 
-    <div className='Segment2'>
-    </div>
 
-    <div className='Segment3'>
+    <div className='Segment2'>
+      <div className='TextContainer'>
+        <h1>About me</h1>
+        <h3>Lorem Ipsum</h3>
+      </div>
     </div>
     </>
   )
