@@ -18,10 +18,12 @@ export default function App() {
         <div className="ImageContainer">
     <img className="AvatarImg" src={avatar} alt="SoC Avatar"/>
         </div>
-    </div>
+    </div> {/*End of Segment1 div*/}
 
     <div className='Segment2'>
+    </div>
 
+    <div className='Segment3'>
     </div>
     </>
   )

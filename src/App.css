@@ -15,9 +15,7 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 1;
-
-    
-    padding-top: 50px;
+    padding-top: 10vh;
   }
 
 .Segment1 {
@@ -25,12 +23,12 @@ html, body {
     display: flex;
     /*justify-content: space-between; /* Spread the content across the container */
     align-items: center;
-    /* height: 100vh; */
+    height: 70vh; /*the last 30vh could be Segment2? To get that Tesla site feel?*/
   }
   
-  /* .TextContainer {
-    padding-right: 20px;
-  } */
+  .TextContainer {
+    padding-left: 5%;
+  }
   
   .ImageContainer {
     display: flex;
@@ -40,4 +38,15 @@ html, body {
 
   .AvatarImg {
     width: 30%;
+    padding-right: 5%;
+  }
+
+  .Segment2 {
+    background-color: rgb(127, 185, 255);
+    height: 20vh; /*10 + 70 + 20 = the full page*/
+  }
+
+  .Segment3 {
+    background-color:aquamarine;
+    height: 90vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
   }
