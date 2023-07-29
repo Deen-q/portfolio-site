@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect, useState } from 'react';
 import avatar from "./avatar.png"
 import './App.css'
 import githubCat from "./githubCat.png"
@@ -9,26 +9,38 @@ export default function App() {
   const segment2Ref = useRef(null);
   const segment3Ref = useRef(null);
   const segment4Ref = useRef(null);
+  const [initialScrollPosition, setInitialScrollPosition] = useState(0);
+  const [mergeSegment1, setMergeSegment1] = useState(false);
+
+  useEffect(() => {
+    // Set the initial scroll position when the component mounts
+    setInitialScrollPosition(window.scrollY);
+  }, []);
 
   function handleHomeBtnClick() {
-    segment1Ref.current.scrollIntoView({ behavior: 'smooth'});
-  };
+    // Scroll to the initial position when the Home button is clicked
+    window.scrollTo({ top: initialScrollPosition, behavior: 'smooth' });
+    setMergeSegment1(true); // Merge NavBar and Segment1
+  }
 
   function handleAboutBtnClick() {
-    segment2Ref.current.scrollIntoView({ behavior: 'smooth'});
-  };
+    segment2Ref.current.scrollIntoView({ behavior: 'smooth' });
+    setMergeSegment1(false); // Reset back to normal
+  }
 
   function handlePortfolioBtnClick() {
-    segment3Ref.current.scrollIntoView({ behavior: 'smooth'});
-  };
+    segment3Ref.current.scrollIntoView({ behavior: 'smooth' });
+    setMergeSegment1(false); // Reset back to normal
+  }
 
   function handleContactBtnClick() {
-    segment4Ref.current.scrollIntoView({ behavior: 'smooth'});
-  };
+    segment4Ref.current.scrollIntoView({ behavior: 'smooth' });
+    setMergeSegment1(false); // Reset back to normal
+  }
 
   return (
     <>
-    <div className='NavBar'>
+    <div className={`NavBar ${mergeSegment1 ? 'MergedSegment1' : ''}`}>
       <div className='NavBarButtons'>
       <button onClick={handleHomeBtnClick}>Home</button>
       <button onClick={handleAboutBtnClick}>About</button>

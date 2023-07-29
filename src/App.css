@@ -42,6 +42,7 @@ button {
   .TextContainer {
     padding-left: 15%;
   }
+
   
   .ImageContainer {
     display: flex;
@@ -88,4 +89,8 @@ button {
   .Segment3 {
     background-color:rgb(127, 185, 255);
     height: 100vh;
+  }
+
+  .MergedSegment1 {
+    margin-top: -1%;
   }
