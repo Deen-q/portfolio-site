@@ -15,18 +15,30 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 1;
-    padding-top: 10vh;
+    padding-top: 1%;
   }
+
+.NavBarButtons {
+  display: flex;
+  justify-content:space-around;
+  padding-bottom: 1%;
+}
+
+button {
+  background-color: rgb(238, 183, 79);
+  border-radius: 10%;
+  cursor: pointer;
+}
 
 .Segment1 {
     background-color: rgb(127, 185, 255);
     display: flex;
     align-items: center;
-    height: 90vh; /*the last 30vh could be Segment2? To get that Tesla site feel?*/
+    height: 95vh;
   }
   
   .TextContainer {
-    padding-left: 5%;
+    padding-left: 15%;
   }
   
   .ImageContainer {
@@ -37,19 +49,27 @@ html, body {
 
   .AvatarImg {
     width: 30%;
-    padding-right: 5%;
+    padding-right: 20%;
   }
 
+  .githubCat {
+    width: 30%;
+    cursor: pointer;
+  }
 
+  .linkedinIcon {
+    width: 30%;
+    cursor: pointer;
+  }
 
   .Segment2 {
     background-color:aquamarine;
-    height: 90vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
+    height: 95vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
   }
   
   .Segment2 h1 {
     margin: 0; /* remove the white streak*/
-    padding-top: 10%;
+    padding-top: 20%;
   }
 
   
