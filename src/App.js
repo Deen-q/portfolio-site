@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import avatar from "./avatar.png"
+import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='NavBar'>
     </div>
-  );
-}
 
-export default App;
+    <div className='Segment1'>
+        <div className='TextContainer'>
+    <h1>Hi, I'm Deen</h1>
+    <h3>Yep, that's 2 e's</h3>
+    <h2>Full stack web developer.</h2>
+        </div> {/*End of TextContainer*/}
+
+        <div className="ImageContainer">
+    <img className="AvatarImg" src={avatar} alt="SoC Avatar"/>
+        </div>
+    </div>
+
+    <div className='Segment2'>
+
+    </div>
+    </>
+  )
+}
