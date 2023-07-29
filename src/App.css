@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
 
 * {
-    font-family:'IM FELL French Canon', sans-serif
+  font-family: 'IM FELL French Canon', sans-serif;
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 .NavBar {
-    background-color: bisque;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    padding-top: 1%;
-  }
+  background-color: bisque;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 1% 0;
+}
 
 .NavBarButtons {
   display: flex;
-  justify-content:space-around;
-  padding-bottom: 1%;
+  justify-content: space-around;
 }
 
 button {
@@ -30,64 +29,54 @@ button {
   cursor: pointer;
 }
 
+.Segment1,
+.Segment2,
+.Segment3,
+.Segment4 {
+  height: 100vh;
+}
+
 .Segment1 {
-    background-color: rgb(127, 185, 255);
-    display: flex;
-    align-items: center;
-    height: 95vh;
-  }
-  
-  .TextContainer {
-    padding-left: 15%;
-  }
-  
-  .ImageContainer {
-    display: flex;
-    justify-content: flex-end; /*Align with right of container*/
-    flex-grow: 1; /*Pushes image to right*/
-  }
+  background-color: rgb(127, 185, 255);
+  display: flex;
+  align-items: center;
+}
 
-  .AvatarImg {
-    width: 30%;
-    padding-right: 20%;
-  }
+.TextContainer {
+  padding-left: 15%;
+  padding-top: 20px;
+}
 
-  .githubCat {
-    width: 30%;
-    cursor: pointer;
-  }
+.ImageContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
 
-  .linkedinIcon {
-    width: 30%;
-    cursor: pointer;
-  }
+.AvatarImg {
+  width: 30%;
+  padding-right: 20px;
+}
 
-  .Segment2 {
-    background-color:rgb(145, 192, 250);
-    height: 95vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
-  }
-  
-  .Segment2 h1 {
-    margin: 0; /* remove the white streak*/
-    padding-top: 20%;
-  }
+.githubCat,
+.linkedinIcon {
+  width: 30%;
+  cursor: pointer;
+}
 
-  .Segment3 {
-    background-color:rgb(127, 185, 255);
-    height: 95vh;
-  }
+.Segment2 {
+  background-color: rgb(145, 192, 250);
+}
 
-  .Segment3 h1 {
-    margin: 0; /* remove the white streak*/
-    padding-top: 20%;
-  }
+.Segment3 {
+  background-color: rgb(127, 185, 255);
+}
 
-  .Segment4 {
-    background-color:rgb(145, 192, 250);
-    height: 95vh;
-  }
+.Segment4 {
+  background-color: rgb(145, 192, 250);
+}
 
-  .Segment4 h1 {
-    margin: 0; /* remove the white streak*/
-    padding-top: 20%;
-  }
+.TextContainer {
+  padding-left: 15%;
+  padding-top: 20px;
+}

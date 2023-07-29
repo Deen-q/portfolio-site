@@ -54,7 +54,6 @@ export default function App() {
         className='linkedinIcon' alt='LinkedIn Icon'/>
         </a>
         <h3>Pssst, these are clickable</h3>
-        <br/>
         <h3>Promise I'll add some animations soon...</h3>
       </div> {/*End of IconContainer*/}
 
