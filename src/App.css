@@ -42,11 +42,6 @@ button {
   .TextContainer {
     padding-left: 15%;
   }
-
-  .Segment1 .TextContainer {
-    /* ... (your other CSS properties) ... */
-    padding-top: 20vh; /* Adjust the padding to control the space between top and content */
-  }
   
   .ImageContainer {
     display: flex;
