@@ -63,7 +63,7 @@ button {
   }
 
   .Segment2 {
-    background-color:aquamarine;
+    background-color:rgb(145, 192, 250);
     height: 95vh; /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
   }
   
@@ -72,4 +72,22 @@ button {
     padding-top: 20%;
   }
 
-  
+  .Segment3 {
+    background-color:rgb(127, 185, 255);
+    height: 95vh;
+  }
+
+  .Segment3 h1 {
+    margin: 0; /* remove the white streak*/
+    padding-top: 20%;
+  }
+
+  .Segment4 {
+    background-color:rgb(145, 192, 250);
+    height: 95vh;
+  }
+
+  .Segment4 h1 {
+    margin: 0; /* remove the white streak*/
+    padding-top: 20%;
+  }
