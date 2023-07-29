@@ -1,8 +1,9 @@
 import React, { useRef } from 'react'
-import avatar from "./avatar.png"
+import avatar from "./images/avatar.png"
 import './App.css'
-import githubCat from "./githubCat.png"
-import linkedinIcon from "./linkedinIcon.png"
+import githubCat from "./images/githubCat.png"
+import linkedinIcon from "./images/linkedinIcon.png"
+import ImageGallery from './components/ImageGallery'
 
 export default function App() {
   const segment1Ref = useRef(null);
@@ -67,9 +68,12 @@ export default function App() {
 
     <div className='Segment2' ref={segment2Ref}>
       <div className='TextContainer'>
-        <h1>About me</h1>
-        <h3>Lorem Ipsum</h3>
-        <h3>*Insert Icons for Webstack*</h3>
+        <h2>About me</h2>
+        <h3>I have a background in Molecular and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
+        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - something I am good at, 'bad' at, it doesn't matter - bring me a challenge! Learning is forever.</h3>
+        <h3>Hobbies: (PC) gaming, gym, swimming and stoic philosophy.</h3>
+        <h2>Tech Stack:</h2>
+        <ImageGallery />
       </div>
     </div>
 
