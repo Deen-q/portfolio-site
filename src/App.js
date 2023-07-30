@@ -11,9 +11,13 @@ export default function App() {
   const segment3Ref = useRef(null);
   const segment4Ref = useRef(null);
 
+  // function handleHomeBtnClick() {
+  //   segment1Ref.current.scrollIntoView({ behavior: 'smooth'});
+  // };
+
   function handleHomeBtnClick() {
-    segment1Ref.current.scrollIntoView({ behavior: 'smooth'});
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   function handleAboutBtnClick() {
     segment2Ref.current.scrollIntoView({ behavior: 'smooth'});
@@ -70,7 +74,7 @@ export default function App() {
       <div className='TextContainer'>
         <h2>About me</h2>
         <h3>I have a background in Molecular and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
-        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - something I am good at, 'bad' at, it doesn't matter - bring me a challenge! Learning is forever.</h3>
+        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
         <h3>Hobbies: (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2>Tech Stack:</h2>
         <ImageGallery />
