@@ -4,6 +4,7 @@
     font-family:'IM FELL French Canon', sans-serif
 }
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -41,6 +42,7 @@ button {
   
   .TextContainer {
     padding-left: 15%;
+    padding-right: 15%;
   }
   
   .ImageContainer {
@@ -49,9 +51,22 @@ button {
     flex-grow: 1; /*Pushes image to right*/
   }
 
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+
   .AvatarImg {
-    width: 30%;
+    width: 40%;
     padding-right: 20%;
+    animation: bounce 6s infinite;
   }
 
   .githubCat {

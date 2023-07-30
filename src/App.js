@@ -46,7 +46,7 @@ export default function App() {
         <div className='TextContainer'>
     <h1>Hi, I'm Deen.</h1>
     <h3>...with 2 e's.</h3>
-    <h2>Full stack web developer.</h2>
+    <h2>A Full Stack Web Developer.</h2>
 
       <div className='IconContainer'>
       <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
@@ -58,8 +58,8 @@ export default function App() {
         <img src={linkedinIcon}
         className='linkedinIcon' alt='LinkedIn Icon'/>
         </a>
-        <h3>Pssst, these are clickable</h3>
-        <h3>Promise I'll add some animations soon...</h3>
+        <h3>Pssst, these <u>icons</u> are clickable</h3>
+        <h3>Animations to come, soooon...</h3>
       </div> {/*End of IconContainer*/}
 
     </div> {/*End of TextContainer*/}
