@@ -93,8 +93,14 @@ export default function App() {
       <div className='TextContainer'>
         <h1>Contact Me</h1>
         <h3>Feel free to reach out on LinkedIn :&#41;</h3>
-      </div>
-    </div>
+          <div className='LinkedinIconContainer'>
+        <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
+        <img src={linkedinIcon}
+        className='linkedinIcon2' alt='LinkedIn Icon'/>
+        </a>
+        </div>
+      </div> {/*end of TextContainer, in Segment4*/}
+    </div> {/*end of Segment4*/}
     </>
   )
 }

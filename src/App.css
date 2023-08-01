@@ -100,7 +100,7 @@ button {
     padding-top: 20%;
   }
 
-  .Segment2, .TextContainer{
+  .Segment2 > .TextContainer{ /*Descendent Selector - only targets direct children of Segment2*/
     padding-top: 4.79%; /*center the text in Segment2*/
   }
 
@@ -108,3 +108,14 @@ button {
     background-color:rgb(127, 185, 255);
     height: 100vh;
   }
+
+  .LinkedinIconContainer { /*TextContainer attributes were potentially causes clashes, so new div*/
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 1vh;
+  }
+
+  .linkedinIcon2 {
+    width: 72.035%; /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
+  }
+  
