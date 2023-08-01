@@ -73,19 +73,19 @@ export default function App() {
 
     <div className='Segment2' ref={segment2Ref}>
       <div className='TextContainer'>
-        <h2>About me</h2>
-        <h3>I have a background in Molecular and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
-        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
+        <h1>About me</h1>
+        <h3>I have a background in Molecular Biology and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
+        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoy constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
         <ImageGallery />
-        <p>(Check my <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>GitHub</a> to see new technologies I'm experimenting with)</p>
+        <p>(Check my out <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>GitHub</a> to see new technologies I'm experimenting with)</p>
       </div>
     </div>
 
     <div className='Segment3' ref={segment3Ref}>
       <div className='TextContainer'>
-        <h1>Portfolio</h1>
+        <h1>Portfolio (carousel soon to come)</h1>
         <PortfolioGallery/>
       </div>
     </div>
@@ -94,8 +94,8 @@ export default function App() {
       <div className='TextContainer'>
         <h1>Contact Me</h1>
         <h3>Feel free to reach out on <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>LinkedIn</a> :&#41;</h3>
-        <p>Please tell me that you found me on my website before connecting. </p>
-        <p>To prevent spam, I do not offer my phone number, unless for job search-related purposes. Thank you :&#41;</p>
+        <p>Please tell me that you found me on my website before connecting.</p>
+        <p>Enjoy the rest of your day :&#41;</p>
           <div className='LinkedinIconContainer'>
         <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
         <img src={linkedinIcon}
