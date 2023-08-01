@@ -94,7 +94,6 @@ export default function App() {
       <div className='TextContainer'>
         <h1>Contact Me</h1>
         <h3>Feel free to reach out on <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>LinkedIn</a> :&#41;</h3>
-        <p>Please tell me that you found me on my website before connecting.</p>
         <p>Enjoy the rest of your day :&#41;</p>
           <div className='LinkedinIconContainer'>
         <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">

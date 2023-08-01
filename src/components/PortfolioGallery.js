@@ -15,7 +15,7 @@ export default function PortfolioGallery() {
         src={LocalBuzzImage} 
         alt='Screenshot of LocalBuzz App'
         />
-        <p>Five week Full Stack project with a team of 6! Can be a bit slow to display events - please be patient...</p>
+        <p>Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
         </div> {/*End of LocalBuzzContainer*/}
         
         <div className='PokemonAppContainer'>
@@ -25,7 +25,7 @@ export default function PortfolioGallery() {
         src={PokemonAppImage}
         alt='Screenshot of Pokemon App'
         />
-        <p>Incomplete - looking to increase functionality: favourite button, teambuilder, local saves etc.</p>
+        <p>Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
         </div>
 
         <div className='PokemonAppContainer'>
