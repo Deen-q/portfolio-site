@@ -52,14 +52,14 @@ button {
   }
 
   @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%, 100% {
       transform: translateY(0);
     }
-    40% {
+    20% {
       transform: translateY(-20px);
     }
-    60% {
-      transform: translateY(-10px);
+    80% {
+      transform: translateY(-20px);
     }
   }
 
@@ -98,6 +98,10 @@ button {
   .Segment4 h1 {
     margin: 0; /* remove the white streak*/
     padding-top: 20%;
+  }
+
+  .Segment2, .TextContainer{
+    padding-top: 4.79%; /*center the text in Segment2*/
   }
 
   .Segment3 {

@@ -44,7 +44,7 @@ export default function App() {
 
     <div className='Segment1' ref={segment1Ref}>
         <div className='TextContainer'>
-    <h1>Hi, I'm Deen.</h1>
+    <h1>Hi, I'm Deen</h1>
     <h3>...with 2 e's.</h3>
     <h2>A Full Stack Web Developer.</h2>
 
@@ -58,8 +58,8 @@ export default function App() {
         <img src={linkedinIcon}
         className='linkedinIcon' alt='LinkedIn Icon'/>
         </a>
-        <h3>Pssst, these <u>icons</u> are clickable</h3>
-        <h3>Animations to come, soooon...</h3>
+        <h3>Pssst, the <u>icons</u> above are clickable</h3>
+        
       </div> {/*End of IconContainer*/}
 
     </div> {/*End of TextContainer*/}
@@ -72,12 +72,13 @@ export default function App() {
 
     <div className='Segment2' ref={segment2Ref}>
       <div className='TextContainer'>
-        <h2>About me</h2>
+        <h2><u>About me</u></h2>
         <h3>I have a background in Molecular and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
         <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
-        <h3>Hobbies: (PC) gaming, gym, swimming and stoic philosophy.</h3>
-        <h2>Tech Stack:</h2>
+        <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
+        <h2><u>Tech Stack:</u></h2>
         <ImageGallery />
+        <p>(Check my <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>GitHub</a> to see new technologies I'm experimenting with)</p>
       </div>
     </div>
 
