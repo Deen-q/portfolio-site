@@ -45,7 +45,7 @@ button {
     padding-right: 15%;
   }
   
-  .ImageContainer {
+  .AvatarContainer {
     display: flex;
     justify-content: flex-end; /*Align with right of container*/
     flex-grow: 1; /*Pushes image to right*/

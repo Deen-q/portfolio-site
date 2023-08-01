@@ -48,7 +48,7 @@ export default function App() {
     <h3>...with 2 e's.</h3>
     <h2>A Full Stack Web Developer.</h2>
 
-      <div className='IconContainer'>
+      <div className='LinkedinGitHub_IconContainer'>
       <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
         <img src={githubCat} 
         className='githubCat' alt='GitHub Icon'/>
@@ -64,7 +64,7 @@ export default function App() {
 
     </div> {/*End of TextContainer*/}
 
-        <div className="ImageContainer">
+        <div className="AvatarContainer">
     <img className="AvatarImg" src={avatar} alt="SoC Avatar"/>
         </div>
     </div> {/*End of Segment1 div*/}
@@ -92,7 +92,9 @@ export default function App() {
     <div className='Segment4' ref={segment4Ref}>
       <div className='TextContainer'>
         <h1>Contact Me</h1>
-        <h3>Feel free to reach out on LinkedIn :&#41;</h3>
+        <h3>Feel free to reach out on <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>LinkedIn</a> :&#41;</h3>
+        <p>Please tell me that you found me on my website before connecting. </p>
+        <p>To prevent spam, I do not offer my phone number, unless for job search-related purposes. Thank you :&#41;</p>
           <div className='LinkedinIconContainer'>
         <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
         <img src={linkedinIcon}
