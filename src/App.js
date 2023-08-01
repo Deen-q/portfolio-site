@@ -4,6 +4,7 @@ import './App.css'
 import githubCat from "./images/githubCat.png"
 import linkedinIcon from "./images/linkedinIcon.png"
 import ImageGallery from './components/ImageGallery'
+import PortfolioGallery from './components/PortfolioGallery'
 
 export default function App() {
   const segment1Ref = useRef(null);
@@ -60,7 +61,7 @@ export default function App() {
         </a>
         <h3>Pssst, the <u>icons</u> above are clickable</h3>
         
-      </div> {/*End of IconContainer*/}
+      </div> {/*End of LinkedinGitHub_IconContainer*/}
 
     </div> {/*End of TextContainer*/}
 
@@ -72,7 +73,7 @@ export default function App() {
 
     <div className='Segment2' ref={segment2Ref}>
       <div className='TextContainer'>
-        <h2><u>About me</u></h2>
+        <h2>About me</h2>
         <h3>I have a background in Molecular and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
         <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoyed constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
@@ -85,7 +86,7 @@ export default function App() {
     <div className='Segment3' ref={segment3Ref}>
       <div className='TextContainer'>
         <h1>Portfolio</h1>
-        <h3>Lorem Ipsum</h3>
+        <PortfolioGallery/>
       </div>
     </div>
 

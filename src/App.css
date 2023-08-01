@@ -86,7 +86,6 @@ button {
   }
 
   .Segment2,
-  .Segment3,
   .Segment4 {
     height: 90vh;
     /* Adjust the height to fit below the NavBar */
@@ -101,12 +100,16 @@ button {
   }
 
   .Segment2 > .TextContainer{ /*Descendent Selector - only targets direct children of Segment2*/
-    padding-top: 4.79%; /*center the text in Segment2*/
+    padding-top: 1.8%; /*center the text in Segment2*/
   }
 
   .Segment3 {
     background-color:rgb(127, 185, 255);
     height: 100vh;
+  }
+  
+  .Segment3 h1 {
+    padding-top: 10vh;
   }
 
   .LinkedinIconContainer { /*TextContainer attributes were potentially causes clashes, so new div*/

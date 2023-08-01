@@ -1,0 +1,39 @@
+h3 {
+    margin-bottom: 1%;
+}
+
+p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.PortfolioParentDiv img {
+    border: 1px solid black;
+  }
+
+.PortfolioParentDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .LocalBuzzContainer,
+  .PokemonAppContainer,
+  .WebsiteContainer {
+    flex-basis: 36.2%; /* Set the width for each container */
+    margin: 0; /* Add some spacing between containers */
+  }
+  
+  .LocalBuzzScreenshot,
+  .WebsiteScreenshot {
+    width: 110%;
+    height: auto;
+  }
+
+  .PokemonAppScreenshot {
+    width: 100%;
+    height: auto;
+  }
+
+
+  
