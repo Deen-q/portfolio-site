@@ -10,11 +10,13 @@ export default function PortfolioGallery() {
     <div className='PortfolioParentDiv'>
         <div className='LocalBuzzContainer'>
         <h3><u>LocalBuzz</u></h3>
+        <a href='https://local-buzz.netlify.app/' target="_blank" rel="noopener noreferrer">
         <img 
         className='LocalBuzzScreenshot'
         src={LocalBuzzImage} 
         alt='Screenshot of LocalBuzz App'
         />
+        </a>
         <p>Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
         </div> {/*End of LocalBuzzContainer*/}
         
@@ -35,7 +37,7 @@ export default function PortfolioGallery() {
         src={WebsiteImage}
         alt='Screenshot of Pokemon App'
         />
-        <p>Built with React.js. </p>
+        <p>Built with React.js, from <u>scratch</u>.</p>
         </div>
     </div>
     </>

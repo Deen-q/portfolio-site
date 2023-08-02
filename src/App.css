@@ -112,7 +112,7 @@ button {
   /* remove the white streak*/
 }
 
-.Segment2>.TextContainer {
+.Segment2 >.TextContainer {
   /*Descendent Selector - only targets direct children of Segment2*/
   padding-top: 1.8%;
   /*center the text in Segment2*/
@@ -121,6 +121,10 @@ button {
 .Segment3 {
   background-color: rgb(127, 185, 255);
   height: 100vh;
+}
+
+.Segment2 h3 {
+  margin-top: 3%;
 }
 
 .Segment3 h1 {

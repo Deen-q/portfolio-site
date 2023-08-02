@@ -1,5 +1,5 @@
 h3 {
-    margin-top: 4.5%;
+    margin-top: 7%;
     margin-bottom: 2%;
 }
 
@@ -31,11 +31,18 @@ p {
 
 .LocalBuzzScreenshot,
 .WebsiteScreenshot {
-    width: 110%; /*These two are wider images*/
+    width: 100%; /*These two are wider images*/
     height: auto;
 }
 
 .PokemonAppScreenshot {
-    width: 100%;
+    width: 90%;
     height: auto;
+}
+
+.LocalBuzzScreenshot,
+.PokemonAppScreenshot,
+.WebsiteScreenshot {
+    border-radius: 10px;
+    cursor: pointer;
 }

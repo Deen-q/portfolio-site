@@ -75,7 +75,9 @@ export default function App() {
       <div className='TextContainer'>
         <h1>About me</h1>
         <h3>I have a background in Molecular Biology and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
-        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoy constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - *something* I am good at, 'bad' at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
+        <h3>Following an intense 16-week Bootcamp via the School of Code, I thoroughly enjoy constant challenge that presented itself - be it unforgiving logical problems or championing a healthy, agile team environment. I am currently on the hunt for a junior role - front end, back end, something I am good at, something I'm not so good at at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
+
+        <h3>Looking forward to working with good people to build great things!</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
         <ImageGallery />
@@ -85,7 +87,7 @@ export default function App() {
 
     <div className='Segment3' ref={segment3Ref}>
       <div className='TextContainer'>
-        <h1>Portfolio (carousel soon to come)</h1>
+        <h1>Portfolio</h1>
         <PortfolioGallery/>
       </div>
     </div>
