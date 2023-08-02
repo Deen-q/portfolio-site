@@ -7,9 +7,10 @@ p {
     margin-top: 1%;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-size: 17px;
 }
 
-.PortfolioParentDiv img {
+.PortfolioParentDiv img { /*Shadows*/
     -webkit-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
     box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
@@ -44,5 +45,9 @@ p {
 .PokemonAppScreenshot,
 .WebsiteScreenshot {
     border-radius: 10px;
+}
+
+.LocalBuzzScreenshot,
+.PokemonAppScreenshot {
     cursor: pointer;
 }

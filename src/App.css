@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Merriweather:wght@300&display=swap');
 
 * {
-  font-family: 'IM FELL French Canon', sans-serif
+  font-family: 'Merriweather', serif;
 }
 
 html,
