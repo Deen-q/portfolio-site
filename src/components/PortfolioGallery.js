@@ -9,7 +9,7 @@ export default function PortfolioGallery() {
     <>
     <div className='PortfolioParentDiv'>
         <div className='LocalBuzzContainer'>
-        <h3><u>LocalBuzz</u> - demo</h3>
+        <h3><u>LocalBuzz</u> - <a href='https://youtu.be/70ITr3OtF5gdemo'> Demo Video!</a></h3>
         <a href='https://local-buzz.netlify.app/' target="_blank" rel="noopener noreferrer">
         <img 
         className='LocalBuzzScreenshot'
