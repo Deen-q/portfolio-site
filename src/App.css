@@ -38,6 +38,8 @@ button {
   height: 93vh;
   /* padding-top: calc(2vh + 1px); */
   padding-top: 2vh;
+
+  position: relative;
 }
 
 .Segment1 h1 {
@@ -100,6 +102,17 @@ button {
   padding-top: 2%;
 }
 
+.Segment2 >.TextContainer {
+  /*Descendent Selector - only targets direct children of Segment2*/
+  padding-top: 1.8%;
+  /*center the text in Segment2*/
+}
+
+.Segment3 {
+  background-color: rgb(127, 185, 255);
+  height: 100vh;
+}
+
 .Segment4 {
   height: 90vh;
   /* Adjust the height to fit below the NavBar */
@@ -112,17 +125,6 @@ button {
   /* remove the white streak*/
 }
 
-.Segment2 >.TextContainer {
-  /*Descendent Selector - only targets direct children of Segment2*/
-  padding-top: 1.8%;
-  /*center the text in Segment2*/
-}
-
-.Segment3 {
-  background-color: rgb(127, 185, 255);
-  height: 100vh;
-}
-
 .Segment2 h3 {
   margin-top: 3%;
 }
@@ -133,6 +135,10 @@ button {
 
 .Segment4 h1 {
   padding-top: 20%
+}
+
+.Segment4 h3 {
+  margin-top: 2%;
 }
 
 .LinkedinIconContainer {
