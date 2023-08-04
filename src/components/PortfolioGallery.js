@@ -9,25 +9,30 @@ export default function PortfolioGallery() {
     <>
     <div className='PortfolioParentDiv'>
         <div className='LocalBuzzContainer'>
-        <h3><u>LocalBuzz</u> - <a href='https://youtu.be/70ITr3OtF5gdemo'> Demo Video!</a></h3>
-        <a href='https://local-buzz.netlify.app/' target="_blank" rel="noopener noreferrer">
-        <img 
+          <h3><u>LocalBuzz</u> - <a href='https://youtu.be/70ITr3OtF5gdemo'> Demo Video!</a></h3>
+
+          <a href='https://local-buzz.netlify.app/' target="_blank" rel="noopener noreferrer">
+          <img 
         className='LocalBuzzScreenshot'
         src={LocalBuzzImage} 
         alt='Screenshot of LocalBuzz App'
-        />
-        </a>
-        <p>Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
+          />
+          </a> {/*End of anchor tag*/}
+
+          <p>Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
         </div> {/*End of LocalBuzzContainer*/}
         
         <div className='PokemonAppContainer'>
-        <h3><u>Pokemon App</u></h3>
-        <img
+          <h3><u>Pokemon App</u></h3>
+
+          <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>
+          <img
         className='PokemonAppScreenshot'
         src={PokemonAppImage}
         alt='Screenshot of Pokemon App'
-        />
-        <p>Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
+          />
+          </a>
+          <p>Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
         </div>
 
         <div className='PokemonAppContainer'>

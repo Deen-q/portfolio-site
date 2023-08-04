@@ -154,7 +154,6 @@ button {
   /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
 }
 
-/* Add this to your CSS */
 a img {
   transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
@@ -163,4 +162,14 @@ a:hover img {
   transform: scale(0.95); /* Slightly depress the image on hover */
 }
 
+/*a.depress img {
+  transform: scale(0.99); /* Slightly depress the image on hover 
+}*/
 
+.Segment3 > .TextContainer a img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.Segment3 > .TextContainer a:hover img {
+  transform: scale(0.99);
+}
