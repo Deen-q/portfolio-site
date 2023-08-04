@@ -105,8 +105,12 @@ button {
 
 .Segment2 >.TextContainer {
   /*Descendent Selector - only targets direct children of Segment2*/
-  padding-top: 1.8%;
+  padding-top: 3%;
   /*center the text in Segment2*/
+}
+
+.Segment2 > .TextContainer h3 {
+  font-size: 20px;
 }
 
 .Segment3 {
