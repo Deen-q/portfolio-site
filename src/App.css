@@ -12,7 +12,7 @@ body {
 }
 
 .NavBar {
-  background-color: bisque;
+  background-color: #F1E0C5;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -26,13 +26,14 @@ body {
 }
 
 button {
-  background-color: rgb(238, 183, 79);
+  background-color: #AD6A6C;
   border-radius: 8%;
   cursor: pointer;
+  color: #38023B;
 }
 
 .Segment1 {
-  background-color: rgb(127, 185, 255);
+  background-color: #5ca8fe;
   display: flex;
   align-items: center;
   height: 93vh;
@@ -78,7 +79,7 @@ button {
 .AvatarImg {
   width: 40%;
   padding-right: 20%;
-  animation: bounce 6s infinite;
+  animation: bounce 3.5s infinite;
 }
 
 .githubCat {
@@ -93,7 +94,7 @@ button {
 
 .Segment2,
 .Segment4 {
-  background-color: rgb(145, 192, 250);
+  background-color: #77b4fa;
   height: 100vh;
   /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
 }
@@ -109,7 +110,7 @@ button {
 }
 
 .Segment3 {
-  background-color: rgb(127, 185, 255);
+  background-color: #5ca8fe;
   height: 100vh;
 }
 
@@ -152,3 +153,14 @@ button {
   width: 72.035%;
   /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
 }
+
+/* Add this to your CSS */
+a img {
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
+a:hover img {
+  transform: scale(0.95); /* Slightly depress the image on hover */
+}
+
+
