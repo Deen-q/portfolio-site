@@ -42,14 +42,20 @@ button:hover {
   display: flex;
   align-items: center;
   height: 93vh;
-  /* padding-top: calc(2vh + 1px); */
   padding-top: 2vh;
-
   position: relative;
 }
 
 .Segment1 h1 {
   margin-top: 0;
+}
+
+a img {
+  transition: transform 0.2s ease-in-out;
+}
+
+a:hover img {
+  transform: scale(0.95);
 }
 
 .TextContainer {
@@ -143,6 +149,14 @@ button:hover {
   padding-top: 11.5vh;
 }
 
+.Segment3 > .TextContainer a img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.Segment3 > .TextContainer a:hover img {
+  transform: scale(0.99);
+}
+
 .Segment4 h1 {
   padding-top: 20%
 }
@@ -163,22 +177,6 @@ button:hover {
   /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
 }
 
-a img {
-  transition: transform 0.2s ease-in-out; /* Smooth transition */
-}
-
-a:hover img {
-  transform: scale(0.95); /* Slightly depress the image on hover */
-}
-
-/*a.depress img {
-  transform: scale(0.99); /* Slightly depress the image on hover 
-}*/
-
-.Segment3 > .TextContainer a img {
-  transition: transform 0.2s ease-in-out;
-}
-
-.Segment3 > .TextContainer a:hover img {
-  transform: scale(0.99);
+.Segment4 p {
+  font-size: 19.5px;
 }
