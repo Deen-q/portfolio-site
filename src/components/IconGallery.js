@@ -1,12 +1,12 @@
 import React from 'react';
-import './ImageGallery.css';
+import './IconGallery.css';
 import figmaIcon from '../images/figma.png';
 import jestIcon from '../images/jest.png';
 import nodejsIcon from '../images/nodejs.png';
 import reactIcon from '../images/react.png';
 import javascriptIcon from '../images/javascript.png';
 
-export default function ImageGallery() {
+export default function IconGallery() {
   return (
     <div className='stackIcons'>
 

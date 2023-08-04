@@ -3,7 +3,7 @@ import avatar from "./images/avatar.png"
 import './App.css'
 import githubCat from "./images/githubCat.png"
 import linkedinIcon from "./images/linkedinIcon.png"
-import ImageGallery from './components/ImageGallery'
+import IconGallery from './components/IconGallery'
 import PortfolioGallery from './components/PortfolioGallery'
 
 export default function App() {
@@ -81,7 +81,7 @@ export default function App() {
         <h3>Looking forward to working with genuine people to build great things!</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
-        <ImageGallery />
+        <IconGallery />
         <p>(Check my out <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>GitHub</a> to see new technologies I'm experimenting with)</p>
       </div>
     </div>

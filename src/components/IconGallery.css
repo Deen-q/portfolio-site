@@ -12,7 +12,12 @@
     align-items: center;
     margin-bottom: 20px;
     flex-basis: 20%;
+    transition: transform 0.2s ease-in-out;
 }
+
+.iconContainer:hover {
+    transform: scale(0.965);
+  }
 
 .iconContainer img {
     width: 27%;
