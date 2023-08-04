@@ -30,6 +30,11 @@ button {
   border-radius: 8%;
   cursor: pointer;
   color: #38023B;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(0.97);
 }
 
 .Segment1 {
