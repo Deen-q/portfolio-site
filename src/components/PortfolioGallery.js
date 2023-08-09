@@ -25,7 +25,7 @@ export default function PortfolioGallery() {
         <div className='PokemonAppContainer'>
           <h3><u>Pokemon App</u></h3>
 
-          <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>
+          <a href='https://github.com/Deen-q/pokemonApp'>
           <img
         className='PokemonAppScreenshot'
         src={PokemonAppImage}

@@ -173,7 +173,7 @@ a:hover img {
 }
 
 .linkedinIcon2 {
-  width: 72.035%;
+  width: 85%;
   /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
 }
 

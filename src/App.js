@@ -49,13 +49,13 @@ export default function App() {
     <h3>...with 2 e's.</h3>
     <h2>A Full Stack Web Developer.</h2>
 
-      <div className='LinkedinGitHub_IconContainer'>
-      <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
+      <div className='Linkedin&GitHub_IconContainer'>
+      <a href="https://github.com/Deen-q" target="_blank" rel="noopener noreferrer">
         <img src={githubCat} 
         className='githubCat' alt='GitHub Icon'/>
         </a>
 
-        <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/deen-qureshi/">
         <img src={linkedinIcon}
         className='linkedinIcon' alt='LinkedIn Icon'/>
         </a>
@@ -82,7 +82,7 @@ export default function App() {
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
         <IconGallery />
-        <p>(Check my out <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>GitHub</a> to see new technologies I'm experimenting with)</p>
+        <p>(Check my out <a href='https://github.com/Deen-q'>GitHub</a> to see new technologies I'm experimenting with)</p>
       </div>
     </div>
 
@@ -96,10 +96,10 @@ export default function App() {
     <div className='Segment4' ref={segment4Ref}>
       <div className='TextContainer'>
         <h1>Contact Me</h1>
-        <h3>Feel free to reach out on <a href='https://www.youtube.com/watch?v=AKGrmY8OSHM'>LinkedIn</a> :&#41;</h3>
+        <h3>Feel free to reach out on <a href='https://www.linkedin.com/in/deen-qureshi/'>LinkedIn</a> :&#41;</h3>
         <p>Enjoy the rest of your day :&#41;</p>
           <div className='LinkedinIconContainer'>
-        <a href="https://www.youtube.com/watch?v=AKGrmY8OSHM" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/deen-qureshi/" target="_blank" rel="noopener noreferrer">
         <img src={linkedinIcon}
         className='linkedinIcon2' alt='LinkedIn Icon'/>
         </a>
