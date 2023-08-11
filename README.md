@@ -1,5 +1,16 @@
 # Welcome to my repo
-This is the repository to my personal/portfolio website. Screenshots and such (plus a link to where the site is hosted) will be shared here once the site works as intended/I progress that far. At that point, I will continue working on my site, simply because I want to keep improving it.
+Welcome to the repo for my personal/portfolio website! 
+
+My site will continue to receive updates, simply because I want to keep improving it :&#41;
+
+## Site Link
+Check out my site at https://deen-q.vercel.app/ 
+
+## What's next on the list "Things to fix"?:
+- Make sure the site displays as intended, on multiple computer screens
+- Wrestle with view port CSS so that the site is presentable on mobile devices (phones, iPads/tablets)
+- On scroll immediately takes to the next segment (the one above or below, if there is one above or below)
+- Stretch goal: once I have more projects, incorporate a carousel or vertical scroll bar
 
 <!-- # Getting Started with Create React App
 

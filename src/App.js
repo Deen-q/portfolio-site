@@ -7,13 +7,13 @@ import IconGallery from './components/IconGallery'
 import PortfolioGallery from './components/PortfolioGallery'
 
 export default function App() {
-  const segment1Ref = useRef(null);
-  const segment2Ref = useRef(null);
-  const segment3Ref = useRef(null);
-  const segment4Ref = useRef(null);
+  const Home_SegmentRef = useRef(null);
+  const About_SegmentRef = useRef(null);
+  const Portfolio_SegmentRef = useRef(null);
+  const Contact_SegmentRef = useRef(null);
 
   // function handleHomeBtnClick() {
-  //   segment1Ref.current.scrollIntoView({ behavior: 'smooth'});
+  //   Home_SegmentRef.current.scrollIntoView({ behavior: 'smooth'});
   // };
 
   function handleHomeBtnClick() {
@@ -21,15 +21,15 @@ export default function App() {
   }
 
   function handleAboutBtnClick() {
-    segment2Ref.current.scrollIntoView({ behavior: 'smooth'});
+    About_SegmentRef.current.scrollIntoView({ behavior: 'smooth'});
   };
 
   function handlePortfolioBtnClick() {
-    segment3Ref.current.scrollIntoView({ behavior: 'smooth'});
+    Portfolio_SegmentRef.current.scrollIntoView({ behavior: 'smooth'});
   };
 
   function handleContactBtnClick() {
-    segment4Ref.current.scrollIntoView({ behavior: 'smooth'});
+    Contact_SegmentRef.current.scrollIntoView({ behavior: 'smooth'});
   };
 
   return (
@@ -43,7 +43,7 @@ export default function App() {
       </div>
     </div>
 
-    <div className='Segment1' ref={segment1Ref}>
+    <div className='Home_Segment' ref={Home_SegmentRef}>
         <div className='TextContainer'>
     <h1>Hi, I'm Deen</h1>
     <h3>...with 2 e's.</h3>
@@ -68,10 +68,10 @@ export default function App() {
         <div className="AvatarContainer">
     <img className="AvatarImg" src={avatar} alt="SoC Avatar"/>
         </div>
-    </div> {/*End of Segment1 div*/}
+    </div> {/*End of Home_Segment div*/}
 
 
-    <div className='Segment2' ref={segment2Ref}>
+    <div className='About_Segment' ref={About_SegmentRef}>
       <div className='TextContainer'>
         <h1>About me</h1>
         <h3>I have a background in Molecular Biology and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
@@ -86,14 +86,14 @@ export default function App() {
       </div>
     </div>
 
-    <div className='Segment3' ref={segment3Ref}>
+    <div className='Portfolio_Segment' ref={Portfolio_SegmentRef}>
       <div className='TextContainer'>
         <h1>Portfolio</h1>
         <PortfolioGallery/>
       </div>
     </div>
 
-    <div className='Segment4' ref={segment4Ref}>
+    <div className='Contact_Segment' ref={Contact_SegmentRef}>
       <div className='TextContainer'>
         <h1>Contact Me</h1>
         <h3>Feel free to reach out on <a href='https://www.linkedin.com/in/deen-qureshi/'>LinkedIn</a> :&#41;</h3>
@@ -104,8 +104,8 @@ export default function App() {
         className='linkedinIcon2' alt='LinkedIn Icon'/>
         </a>
         </div>
-      </div> {/*end of TextContainer, in Segment4*/}
-    </div> {/*end of Segment4*/}
+      </div> {/*end of TextContainer, in Contact_Segment*/}
+    </div> {/*end of Contact_Segment*/}
     </>
   )
 }

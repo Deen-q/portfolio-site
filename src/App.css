@@ -37,7 +37,7 @@ button:hover {
   transform: scale(0.97);
 }
 
-.Segment1 {
+.Home_Segment {
   background-color: #5ca8fe;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ button:hover {
   position: relative;
 }
 
-.Segment1 h1 {
+.Home_Segment h1 {
   margin-top: 0;
 }
 
@@ -103,65 +103,65 @@ a:hover img {
   cursor: pointer;
 }
 
-.Segment2,
-.Segment4 {
+.About_Segment,
+.Contact_Segment {
   background-color: #77b4fa;
   height: 100vh;
   /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
 }
 
-.Segment2 {
+.About_Segment {
   padding-top: 2%;
 }
 
-.Segment2 >.TextContainer {
-  /*Descendent Selector - only targets direct children of Segment2*/
+.About_Segment >.TextContainer {
+  /*Descendent Selector - only targets direct children of About_Segment*/
   padding-top: 3%;
-  /*center the text in Segment2*/
+  /*center the text in About_Segment*/
 }
 
-.Segment2 > .TextContainer h3 {
+.About_Segment > .TextContainer h3 {
   font-size: 20px;
 }
 
-.Segment3 {
+.Portfolio_Segment {
   background-color: #5ca8fe;
   height: 100vh;
 }
 
-.Segment4 {
+.Contact_Segment {
   height: 90vh;
   /* Adjust the height to fit below the NavBar */
   padding-top: calc(10vh + 1px);
 }
 
-.Segment3 h1,
-.Segment4 h1 {
+.Portfolio_Segment h1,
+.Contact_Segment h1 {
   margin: 0;
   /* remove the white streak*/
 }
 
-.Segment2 h3 {
+.About_Segment h3 {
   margin-top: 3%;
 }
 
-.Segment3 h1 {
+.Portfolio_Segment h1 {
   padding-top: 11.5vh;
 }
 
-.Segment3 > .TextContainer a img {
+.Portfolio_Segment > .TextContainer a img {
   transition: transform 0.2s ease-in-out;
 }
 
-.Segment3 > .TextContainer a:hover img {
+.Portfolio_Segment > .TextContainer a:hover img {
   transform: scale(0.99);
 }
 
-.Segment4 h1 {
+.Contact_Segment h1 {
   padding-top: 20%
 }
 
-.Segment4 h3 {
+.Contact_Segment h3 {
   margin-top: 2%;
 }
 
@@ -174,9 +174,9 @@ a:hover img {
 
 .linkedinIcon2 {
   width: 85%;
-  /*for some reason, this makes it exactly the same size as the icon in Segment1 - I used dev tools to check; both are now 108.05x108.05*/
+  /*for some reason, this makes it exactly the same size as the icon in Home_Segment - I used dev tools to check; both are now 108.05x108.05*/
 }
 
-.Segment4 p {
+.Contact_Segment p {
   font-size: 19.5px;
 }
