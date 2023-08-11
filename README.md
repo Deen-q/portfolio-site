@@ -6,7 +6,7 @@ My site will continue to receive regular updates, simply because I want to keep 
 ## Site Link
 Check out my site at https://deen-q.vercel.app/
 
-## What's next on the list "Things to fix"?:
+## What's next on the list of, "Things to fix"?:
 - Make sure the site displays as intended, on multiple computer screen resolutions (viewport CSS)
 - Wrestle with more view port CSS so that the site is presentable on mobile devices (phones, iPads/tablets)
 - On scroll immediately takes the user to the next segment (the one above or below, if there is one above or below)
