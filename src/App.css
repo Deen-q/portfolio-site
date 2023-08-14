@@ -40,7 +40,7 @@ button {
   background-color: var(--Maroon);
   border-radius: 8%;
   cursor: pointer;
-  color: var(--DeepPurple);
+  color: var(--NavBar_FooterColour);
   transition: transform 0.2s ease-in-out;
 }
 
