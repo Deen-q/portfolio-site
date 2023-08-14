@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import avatar from "./images/avatar.png"
+import avatar from './images/avatar.png'
 import './App.css'
-import githubCat from "./images/githubCat.png"
-import linkedinIcon from "./images/linkedinIcon.png"
+import githubCat from './images/githubCat.png'
+import linkedinIcon from './images/linkedinIcon.png'
 import IconGallery from './components/IconGallery'
 import PortfolioGallery from './components/PortfolioGallery'
 
@@ -50,12 +50,12 @@ export default function App() {
     <h2>A Full Stack Web Developer.</h2>
 
       <div className='Linkedin&GitHub_IconContainer'>
-      <a href="https://github.com/Deen-q" target="_blank" rel="noopener noreferrer">
+      <a href='https://github.com/Deen-q' target='_blank' rel='noopener noreferrer'>
         <img src={githubCat} 
         className='githubCat' alt='GitHub Icon'/>
         </a>
 
-        <a href="https://www.linkedin.com/in/deen-qureshi/">
+        <a href='https://www.linkedin.com/in/deen-qureshi/'>
         <img src={linkedinIcon}
         className='linkedinIcon' alt='LinkedIn Icon'/>
         </a>
@@ -65,8 +65,8 @@ export default function App() {
 
     </div> {/*End of TextContainer*/}
 
-        <div className="AvatarContainer">
-    <img className="AvatarImg" src={avatar} alt="SoC Avatar"/>
+        <div className='AvatarContainer'>
+    <img className='AvatarImg' src={avatar} alt='SoC Avatar'/>
         </div>
     </div> {/*End of Home_Segment div*/}
 
@@ -76,7 +76,7 @@ export default function App() {
         <h1>About me</h1>
         <h3>I have a background in Molecular Biology and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
 
-        <h3>During an intense 16-week <a href='https://www.schoolofcode.co.uk/'>Bootcamp</a>, I learned a lot - be it unforgiving logical problems or championing a healthy, agile team environment; it required tremendous amounts of perseverance, but I enjoyed it all... Now, I am currently on the hunt for a junior role - front end, back end, something I am good at, something I'm not so good at at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
+        <h3>During an intense 16-week <a href='https://www.schoolofcode.co.uk/' target='_blank' rel='noopener noreferrer'>Bootcamp</a>, I learned a lot - be it unforgiving logical problems or championing a healthy, agile team environment; it required tremendous amounts of perseverance, but I enjoyed it all... Now, I am currently on the hunt for a junior role - front end, back end, something I am good at, something I'm not so good at at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
 
         <h3>Looking forward to working with genuine people to build great things!</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
@@ -99,7 +99,7 @@ export default function App() {
         <h3>Feel free to reach out on <a href='https://www.linkedin.com/in/deen-qureshi/'>LinkedIn</a> :&#41;</h3>
         <p>Enjoy the rest of your day :&#41;</p>
           <div className='LinkedinIconContainer'>
-        <a href="https://www.linkedin.com/in/deen-qureshi/" target="_blank" rel="noopener noreferrer">
+        <a href='https://www.linkedin.com/in/deen-qureshi/' target='_blank' rel='noopener noreferrer'>
         <img src={linkedinIcon}
         className='linkedinIcon2' alt='LinkedIn Icon'/>
         </a>
