@@ -1,3 +1,11 @@
+:root {
+  --NavBar_FooterColour:#F1E0C5;
+  --Maroon:#AD6A6C;
+  --DarkMaroon: #38023B;
+  --Blue1: #5ca8fe;
+  --Blue2: #77b4fa;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Merriweather:wght@300&display=swap');
 
 * {
@@ -12,7 +20,7 @@ body {
 }
 
 .NavBar {
-  background-color: #F1E0C5;
+  background-color: var(--NavBar_FooterColour);
   position: sticky;
   top: 0;
   z-index: 1;
@@ -26,10 +34,10 @@ body {
 }
 
 button {
-  background-color: #AD6A6C;
+  background-color: var(--Maroon);
   border-radius: 8%;
   cursor: pointer;
-  color: #38023B;
+  color: var(--DarkMaroon);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -38,7 +46,7 @@ button:hover {
 }
 
 .Home_Segment {
-  background-color: #5ca8fe;
+  background-color: var(--Blue1);
   display: flex;
   align-items: center;
   height: 93vh;
@@ -105,7 +113,7 @@ a:hover img {
 
 .About_Segment,
 .Contact_Segment {
-  background-color: #77b4fa;
+  background-color: var(--Blue2);
   height: 100vh;
   /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
 }
@@ -125,12 +133,12 @@ a:hover img {
 }
 
 .Portfolio_Segment {
-  background-color: #5ca8fe;
+  background-color: var(--Blue1);
   height: 100vh;
 }
 
 .Contact_Segment {
-  height: 90vh;
+  height: 84vh;
   /* Adjust the height to fit below the NavBar */
   padding-top: calc(10vh + 1px);
 }
@@ -158,7 +166,7 @@ a:hover img {
 }
 
 .Contact_Segment h1 {
-  padding-top: 20%
+  padding-top: 16%
 }
 
 .Contact_Segment h3 {

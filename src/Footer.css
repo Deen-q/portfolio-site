@@ -1,0 +1,41 @@
+.FooterDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--NavBar_FooterColour);
+  color: var(--Maroon);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+.FooterContent {
+  display: flex; /* flex again, for child div */
+  align-items: center;
+}
+
+.FooterContent > p {
+    font-size: 17px;
+    padding-bottom: 0.5%;
+}
+
+.Copyright img {
+    max-width: 22px;
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+
+/*
+.FooterDiv {
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #F1E0C5;
+color: #AD6A6C;
+padding-bottom: 0.5%;
+}
+
+.Copyright {
+    width: 20%;
+    margin-right: 0;
+}
+*/

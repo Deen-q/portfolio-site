@@ -5,6 +5,7 @@ import githubCat from './images/githubCat.png'
 import linkedinIcon from './images/linkedinIcon.png'
 import IconGallery from './components/IconGallery'
 import PortfolioGallery from './components/PortfolioGallery'
+import Footer from './Footer.js'
 
 export default function App() {
   const Home_SegmentRef = useRef(null);
@@ -106,6 +107,8 @@ export default function App() {
         </div>
       </div> {/*end of TextContainer, in Contact_Segment*/}
     </div> {/*end of Contact_Segment*/}
+
+    <Footer />
     </>
   )
 }

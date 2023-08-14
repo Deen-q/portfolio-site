@@ -11,3 +11,5 @@
 <a target="_blank" href="https://icons8.com/icon/GflC6KLkdd0Y/figma">Figma</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 <a target="_blank" href="https://icons8.com/icon/39853/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/7764/copyright">Copyright</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
