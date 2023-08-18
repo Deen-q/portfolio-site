@@ -3,6 +3,9 @@ Welcome to the repo for my personal/portfolio website!
 
 My site will continue to receive regular updates, simply because I want to keep improving it :&#41;
 
+## How to run locally
+npm start
+
 ## Site Link
 Check out my site at https://deen-q.vercel.app/
 
