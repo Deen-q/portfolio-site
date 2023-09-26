@@ -35,7 +35,7 @@ export default function PortfolioGallery() {
           <p className="description">Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
         </div>
 
-        <div className='PokemonAppContainer'>
+        <div className='WebsiteContainer'>
         <h3><u>Portfolio/Personal Website</u></h3>
         <img
         className='WebsiteScreenshot'

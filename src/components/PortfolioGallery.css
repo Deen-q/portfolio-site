@@ -15,6 +15,10 @@ p {
     width: 90%;
 }
 
+.LocalBuzzContainer {
+    margin-right: 40px;
+}
+
 .PortfolioParentDiv img { /*Shadows*/
     -webkit-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
@@ -28,7 +32,7 @@ p {
 
 .LocalBuzzContainer,
 .PokemonAppContainer,
-.WebsiteScreenshot {
+.WebsiteContainer {
   flex: 0 0 50%; /* Each container takes 50% of the available width */
   padding: 2%; /* spacing between containers */
   box-sizing: border-box; /* Include padding in container width */
@@ -40,9 +44,13 @@ p {
     height: auto;
 }
 
+.WebsiteScreenshot {
+    padding: 0;
+    height: 66%
+}
+
 .PokemonAppScreenshot {
     width: 91.5%;
-    
 }
 
 .LocalBuzzScreenshot,
@@ -54,8 +62,4 @@ p {
 .LocalBuzzScreenshot,
 .PokemonAppScreenshot {
     cursor: pointer;
-}
-
-.WebsiteScreenshot {
-    padding: 0;
 }
