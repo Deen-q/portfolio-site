@@ -75,11 +75,10 @@ export default function App() {
     <div className='About_Segment' ref={About_SegmentRef}>
       <div className='TextContainer'>
         <h1>About me</h1>
-        <h3>I have a background in Molecular Biology and Microbiology, which I will always love. But I needed something more hands on that would offer me a means to actually BUILD things. Enter programming.</h3>
+        <h3>I'm a Molecular Biologist and Microbiologist by trade, which I will always love. But I needed an outlet to see my creations evolve in real time. Enter programming.</h3>
 
-        <h3>During an intense 16-week <a href='https://www.schoolofcode.co.uk/' target='_blank' rel='noopener noreferrer'>Bootcamp</a>, I learned a lot - be it unforgiving logical problems or championing a healthy, agile team environment; it required tremendous amounts of perseverance, but I enjoyed it all... Now, I am currently on the hunt for a junior role - front end, back end, something I am good at, something I'm not so good at at, it doesn't matter - bring me a challenge! <u>Anything</u> can be learned.</h3>
+        <h3>During an intense 16-week <a href='https://www.schoolofcode.co.uk/' target='_blank' rel='noopener noreferrer'>Bootcamp</a>, I learned a lot - be it unforgiving logical problems or championing a healthy, agile team environment. I feel <u>anything</u> can be learned - bring on the challenge!</h3>
 
-        <h3>Looking forward to working with genuine people to build great things!</h3>
         <h3><u>Hobbies:</u> (PC) gaming, gym, swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
         <IconGallery />

@@ -19,7 +19,7 @@ export default function PortfolioGallery() {
           />
           </a> {/*End of anchor tag*/}
 
-          <p>Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
+          <p className="description">Five week Full Stack project with a team of 6! Note: can be a little slow to display events.</p>
         </div> {/*End of LocalBuzzContainer*/}
         
         <div className='PokemonAppContainer'>
@@ -32,7 +32,7 @@ export default function PortfolioGallery() {
         alt='Screenshot of Pokemon App'
           />
           </a>
-          <p>Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
+          <p className="description">Incomplete - looking to increase functionality: favourite button, teambuilder, local storage etc.</p>
         </div>
 
         <div className='PokemonAppContainer'>
@@ -42,7 +42,7 @@ export default function PortfolioGallery() {
         src={WebsiteImage}
         alt='Screenshot of Pokemon App'
         />
-        <p>Built with React, from <u>scratch</u>; no templates here.</p>
+        <p className="description">Where you are right now. Built with React, from <u>scratch</u>; no templates here.</p>
         </div>
     </div>
     </>

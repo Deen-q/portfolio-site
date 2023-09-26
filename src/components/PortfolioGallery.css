@@ -1,13 +1,18 @@
 h3 {
     margin-top: 7%;
     margin-bottom: 2%;
+    width: 70%;
 }
 
 p {
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 17px;
+}
+
+.description {
+    width: 90%;
 }
 
 .PortfolioParentDiv img { /*Shadows*/
@@ -17,17 +22,16 @@ p {
 }
 
 .PortfolioParentDiv {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /*to allow imgs to be side by side*/
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
 }
 
 .LocalBuzzContainer,
 .PokemonAppContainer,
-.WebsiteContainer {
-    flex-basis: 36.2%;/*Set width for each container*/
-    margin: 0; /*spacing between, if needed*/
+.WebsiteScreenshot {
+  flex: 0 0 50%; /* Each container takes 50% of the available width */
+  padding: 2%; /* spacing between containers */
+  box-sizing: border-box; /* Include padding in container width */
 }
 
 .LocalBuzzScreenshot,
@@ -37,8 +41,8 @@ p {
 }
 
 .PokemonAppScreenshot {
-    width: 90%;
-    height: auto;
+    width: 91.5%;
+    
 }
 
 .LocalBuzzScreenshot,
@@ -50,4 +54,8 @@ p {
 .LocalBuzzScreenshot,
 .PokemonAppScreenshot {
     cursor: pointer;
+}
+
+.WebsiteScreenshot {
+    padding: 0;
 }
