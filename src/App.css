@@ -133,6 +133,12 @@ a:hover img {
 
 .About_Segment > .TextContainer h3 {
   font-size: 20px;
+  width: 100%;
+}
+
+.About_Segment > .TextContainer h2 {
+  font-size: 25px;
+  width: 100%;
 }
 
 .Portfolio_Segment {

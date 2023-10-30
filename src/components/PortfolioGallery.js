@@ -3,6 +3,7 @@ import './PortfolioGallery.css'
 import LocalBuzzImage from '../images/LocalBuzzScreenshot.png'
 import PokemonAppImage from '../images/EarlyPokemonApp.png'
 import WebsiteImage from '../images/EarlyPortfolioWebsite.png'
+// import AWS_Guide from '../images/AWS_Guide.png'
 
 export default function PortfolioGallery() {
   return (
@@ -42,8 +43,10 @@ export default function PortfolioGallery() {
         src={WebsiteImage}
         alt='Screenshot of Pokemon App'
         />
-        <p className="description">Where you are right now. Built with React, from <u>scratch</u>; no templates here.</p>
+        <p className="description">Built with React, from <u>scratch</u>; no or libraries templates here 👀. This card is not clickable - you're already here!</p>
         </div>
+
+        
     </div>
     </>
   )
