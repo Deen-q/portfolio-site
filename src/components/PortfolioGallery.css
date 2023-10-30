@@ -32,14 +32,16 @@ p {
 
 .LocalBuzzContainer,
 .PokemonAppContainer,
-.WebsiteContainer {
-  flex: 0 0 50%; /* Each container takes 50% of the available width */
+.WebsiteContainer,
+.AWS_Guide_Container {
+  flex: 0 0 50%; /* each container takes 50% of the available width */
   padding: 2%; /* spacing between containers */
   box-sizing: border-box; /* Include padding in container width */
 }
 
 .LocalBuzzScreenshot,
-.WebsiteScreenshot {
+.WebsiteScreenshot,
+.AWS_GuideScreenshot {
     width: 100%; /*These two are wider images*/
     height: auto;
 }
@@ -55,11 +57,17 @@ p {
 
 .LocalBuzzScreenshot,
 .PokemonAppScreenshot,
-.WebsiteScreenshot {
+.WebsiteScreenshot,
+.AWS_GuideScreenshot {
     border-radius: 10px;
 }
 
 .LocalBuzzScreenshot,
-.PokemonAppScreenshot {
+.PokemonAppScreenshot,
+.AWS_GuideScreenshot {
     cursor: pointer;
+}
+
+.AWS_Guide_Container {
+    margin-left: 40px;
 }
