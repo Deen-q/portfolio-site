@@ -5,6 +5,9 @@ import jestIcon from '../images/jest.png';
 import nodejsIcon from '../images/nodejs.png';
 import reactIcon from '../images/react.png';
 import javascriptIcon from '../images/javascript.png';
+import awsIcon from '../images/aws.png';
+import typeScriptIcon from '../images/typescript.png';
+import mongodbIcon from '../images/mongodb.png';
 
 export default function IconGallery() {
   return (
@@ -28,6 +31,21 @@ export default function IconGallery() {
       <div className='iconContainer'>
         <img src={jestIcon} alt='Jest Icon' />
         <p>Jest</p>
+      </div>
+
+      <div className='iconContainer'>
+        <img src={awsIcon} alt='Figma Icon' />
+        <p>AWS</p>
+      </div>
+
+      <div className='iconContainer'>
+        <img src={typeScriptIcon} alt='Figma Icon' />
+        <p>TypeScript</p>
+      </div>
+
+      <div className='iconContainer'>
+        <img src={mongodbIcon} alt='Figma Icon' />
+        <p>MongoDB</p>
       </div>
 
       <div className='iconContainer'>

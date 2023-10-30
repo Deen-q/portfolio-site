@@ -82,7 +82,7 @@ export default function App() {
         <h3>Hobbies: gaming, gym (powerlifting), swimming and stoic philosophy.</h3>
         <h2><u>Tech Stack:</u></h2>
         <IconGallery />
-        <p>(Check my out <a href='https://github.com/Deen-q'>GitHub</a> to see new technologies I'm experimenting with)</p>
+        <p>...And more. Check my out <a href='https://github.com/Deen-q'>GitHub</a> to see new technologies I'm experimenting with.</p>
       </div>
     </div>
 

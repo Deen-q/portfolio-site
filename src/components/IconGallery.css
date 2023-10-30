@@ -1,9 +1,10 @@
 /*Always make sure that CSS styles in the 'parent container', i.e., in App.css, do not conflict*/
 .stackIcons{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
     padding-top: 1%;
+    /* width: 90%; */
 }
 
 .iconContainer {
@@ -14,6 +15,7 @@
     flex-basis: 20%;
     transition: transform 0.2s ease-in-out;
 }
+
 
 .iconContainer:hover {
     transform: scale(0.965);

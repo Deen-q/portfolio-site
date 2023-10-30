@@ -13,3 +13,9 @@
 <a target="_blank" href="https://icons8.com/icon/39853/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 <a target="_blank" href="https://icons8.com/icon/7764/copyright">Copyright</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/AtEKkdldZfri/amazon-aws">Amazon AWS</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/vMqgHSToxrJR/typescript">TypeScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+<a target="_blank" href="https://icons8.com/icon/OdTjgPoHJeaK/mongodb-a-cross-platform-document-oriented-database-program">MongoDB a cross-platform document-oriented database program</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
