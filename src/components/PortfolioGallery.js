@@ -11,7 +11,7 @@ export default function PortfolioGallery() {
     <div className='PortfolioParentDiv'>
     {/*-------------------------------------------------*/}
         <div className='LocalBuzzContainer'>
-          <h3><u>LocalBuzz</u> - <a href='https://youtu.be/70ITr3OtF5gdemo'> Demo Video!</a></h3>
+          <h3><u>LocalBuzz</u><a href='https://youtu.be/70ITr3OtF5gdemo'> (Demo Video)</a></h3>
 
           <a href='https://local-buzz.netlify.app/' target="_blank" rel="noopener noreferrer">
           <img 
@@ -42,7 +42,7 @@ export default function PortfolioGallery() {
     {/*-------------------------------------------------*/}
 
         <div className='WebsiteContainer'>
-        <h3><u>Portfolio/Personal Website</u></h3>
+        <h3><u>Personal Website</u></h3>
         <img
         className='WebsiteScreenshot'
         src={WebsiteImage}

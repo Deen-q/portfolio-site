@@ -17,6 +17,10 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.iconContainer p {
+    font-size: 15px;
+}
+
 
 .iconContainer:hover {
     transform: scale(0.965);

@@ -40,7 +40,7 @@ export default function App() {
       <button onClick={handleHomeBtnClick}>Home</button>
       <button onClick={handleAboutBtnClick}>About</button>
       <button onClick={handlePortfolioBtnClick}>Portfolio</button>
-      <button onClick={handleContactBtnClick}>Contact Me</button>
+      <button onClick={handleContactBtnClick}>Contact</button>
       </div>
     </div>
 
