@@ -71,3 +71,37 @@ p {
 .AWS_Guide_Container {
     margin-left: 40px;
 }
+
+@media (max-width: 1365px){
+    h3 {
+        font-size: 15px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+
+    .LocalBuzzScreenshot,
+    .PokemonAppScreenshot,
+    .WebsiteScreenshot,
+    .AWS_GuideScreenshot {
+        height: 60%;
+    }
+}
+
+@media (max-width: 768px){
+    .PortfolioParentDiv > h3 {
+        font-size: 12.5px;
+    }
+    
+    .PortfolioParentDiv > p {
+        font-size: 11px;
+    }
+
+    .PortfolioParentDiv > .LocalBuzzScreenshot,
+    .PokemonAppScreenshot,
+    .WebsiteScreenshot,
+    .AWS_GuideScreenshot {
+        height: 60%;
+    }
+}

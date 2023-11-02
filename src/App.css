@@ -223,4 +223,18 @@ a:hover img {
   .About_Segment {
     padding-top: 22%;
   }
+
+  .Portfolio_Segment {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 768px){
+  .Portfolio_Segment {
+    padding-top: 28%;
+  }
+  
+  .Portfolio_Segment > .TextContainer{
+    font-size: 12px;
+  }
 }

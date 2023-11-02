@@ -46,7 +46,7 @@ export default function PortfolioGallery() {
         <img
         className='WebsiteScreenshot'
         src={WebsiteImage}
-        alt='Screenshot of Pokemon App'
+        alt='Screenshot of Website homepage'
         />
         <p className="description">Built with React, from <u>scratch</u>; no or libraries templates here 👀. This card is not clickable - you're already here!</p>
         </div>
