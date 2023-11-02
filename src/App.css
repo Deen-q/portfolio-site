@@ -99,7 +99,7 @@ a:hover img {
 }
 
 .AvatarImg {
-  width: 40%;
+  width: 50%;
   padding-right: 20%;
   animation: bounce 3.5s infinite;
 }
@@ -256,6 +256,12 @@ a:hover img {
   
   .Portfolio_Segment {
     padding-top: 55%;
+  }
+
+  .AvatarImg {
+    width: 85%;
+    padding-right: 20%;
+    animation: bounce 3.5s infinite;
   }
 }
 
