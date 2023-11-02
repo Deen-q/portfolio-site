@@ -132,7 +132,7 @@ a:hover img {
 }
 
 .About_Segment > .TextContainer h3 {
-  font-size: 20px;
+  /* font-size: 20px; */
   width: 100%;
 }
 
@@ -196,4 +196,18 @@ a:hover img {
 
 .Contact_Segment p {
   font-size: 19.5px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .Home_Segment > .TextContainer {
+      font-size: 10px;
+  }
+  .About_Segment > .TextContainer {
+      font-size: 12px;
+  }
+
+  .About_Segment > .TextContainer h2 {
+    font-size: 17px;
+}
 }
