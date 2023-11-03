@@ -18,7 +18,7 @@ p {
 }
 
 .LocalBuzzContainer {
-    margin-right: 40px;
+    margin-right: 7%;
 }
 
 .PortfolioParentDiv img {
@@ -50,12 +50,17 @@ p {
     padding-right: 5%;
 }
 
-.LocalBuzzScreenshot,
+
 .WebsiteScreenshot,
 .AWS_GuideScreenshot {
     width: 100%;
     /*These two are wider images*/
     height: auto;
+}
+
+.LocalBuzzScreenshot {
+    width: 110%;
+    height: 66%;
 }
 
 .WebsiteScreenshot {
