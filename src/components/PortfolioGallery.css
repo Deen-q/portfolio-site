@@ -14,12 +14,12 @@ p {
 .description {
     width: 90%;
     font-size: 14px;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
-.LocalBuzzContainer {
+/* .LocalBuzzContainer {
     margin-right: 7%;
-}
+} */
 
 .PortfolioParentDiv img {
     /*Shadows*/
@@ -46,52 +46,30 @@ p {
     /* Include padding in container width */
 }
 
-.PokemonAppContainer{
+.PokemonAppContainer,
+.AWS_Guide_Container {
     padding-right: 5%;
-}
-
-
-.WebsiteScreenshot,
-.AWS_GuideScreenshot {
-    width: 100%;
-    /*These two are wider images*/
-    height: auto;
-}
-
-.LocalBuzzScreenshot {
-    width: 110%;
-    height: 66%;
-}
-
-.WebsiteScreenshot {
-    padding: 0;
-    height: 66%
-}
-
-.PokemonAppContainer {
-    margin-right: 5%;
-}
-
-.PokemonAppScreenshot {
-    width: 100%;
-    /* min-width: 90%; */
+    margin-right: -3%;
 }
 
 .LocalBuzzScreenshot,
 .PokemonAppScreenshot,
 .WebsiteScreenshot,
 .AWS_GuideScreenshot {
+    width: 400px;
+    height: auto;
+    margin-top: 2%;
     border-radius: 10px;
+}
+
+.LocalBuzzScreenshot {
+    width: 450px;
 }
 
 .LocalBuzzScreenshot,
 .PokemonAppScreenshot,
 .AWS_GuideScreenshot {
     cursor: pointer;
-}
-
-.AWS_Guide_Container {
-    margin-left: 40px;
 }
 
 @media (max-width: 1365px) {
