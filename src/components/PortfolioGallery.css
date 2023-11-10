@@ -11,8 +11,21 @@ p {
     /* font-size: 17px; */
 }
 
+
+/* a { 
+    color: rgb(161, 230, 235);
+} */
+
+/* a:hover {
+    color: rgb(0, 4, 255); 
+} */
+
+/* a:visited {
+    color: rgb(161, 230, 235);
+} */
+
 .description {
-    width: 90%;
+    width: 93%;
     font-size: 14px;
     padding-bottom: 5%;
 }
@@ -46,14 +59,17 @@ p {
     /* Include padding in container width */
 }
 
-.PokemonAppContainer,
-.AWS_Guide_Container {
-    padding-right: 5%;
+.PokemonAppContainer {
+    padding-right: 10%;
     margin-right: -3%;
 }
 
-.LocalBuzzScreenshot,
-.PokemonAppScreenshot,
+.AWS_Guide_Container {
+    padding-right: 5%;
+    margin-left: -3.5%;
+    /* margin-right: -3%; */
+}
+
 .WebsiteScreenshot,
 .AWS_GuideScreenshot {
     width: 400px;
@@ -64,6 +80,16 @@ p {
 
 .LocalBuzzScreenshot {
     width: 450px;
+    height: auto;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.PokemonAppScreenshot {
+    width: 450px;
+    height: auto;
+    margin-top: 2%;
+    border-radius: 10px;
 }
 
 .LocalBuzzScreenshot,
