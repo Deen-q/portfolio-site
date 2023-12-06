@@ -75,11 +75,11 @@ export default function App() {
     <div className='About_Segment' ref={About_SegmentRef}>
       <div className='TextContainer'>
         <h1>About me</h1>
-        <h3>A Molecular Biologist and Microbiologist, who traded genetic engineering for fullstack development.</h3>
+        <h3>I'm a former Molecular Biologist and Microbiologist, who traded genetic engineering for fullstack development. I quite liked the idea of being able to spin a project up in no time, where the only limiting factor <i>really</i> is your determination and imagination. Plus, most devs are introverted - a natural fit!</h3>
 
-        <h3>My time at the <a href='https://www.schoolofcode.co.uk/' target='_blank' rel='noopener noreferrer'>SoC</a> helped reinforce the idea that by breaking down problems, there is nothing you can't learn.</h3>
+        {/* <h3>I enjoy learning new things and then relaying what I've learned to others and/or mentoring when I can.</h3> */}
 
-        <h3>Hobbies: gaming, gym (powerlifting), swimming and stoic philosophy.</h3>
+        <h3>When I'm not coding, I enjoy weightlifting, gaming, reading or spending time with family and friends.</h3>
         <h2><u>Tech Stack:</u></h2>
         <IconGallery />
         <p>...And more. Check my out <a href='https://github.com/Deen-q'>GitHub</a> to see new technologies I'm experimenting with.</p>
