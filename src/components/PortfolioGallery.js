@@ -27,8 +27,7 @@ export default function PortfolioGallery() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              .NET Azure Order Processor
-            </a>
+              C# Azure Order Processor</a> (not hosted)
           </h3>
           <img
             className="CSharpAzureScreenshot"
@@ -37,14 +36,11 @@ export default function PortfolioGallery() {
           />
           {/*End of anchor tag*/}
           <p className="description">
-            <b>Current project:</b> Early stages 'warm-up' project using Azure
-            Storage Emulator and Azure Storage Explorer to enqueue messages
-            which trigger a local Azure Function.
-            <br />
-            <b>Prelude to my Azure Service Bus app.</b>
+            <b>Current project:</b> I'm currently in the <b>early</b> stages for a 'warm-up' project using C#, Azure
+            Storage Emulator and Azure Storage Explorer to enqueue messages. The messages then trigger a <b>local Azure Function</b>. <u>Prelude to my <b>Azure Service Bus</b> app with C#.</u>
           </p>
         </div>{" "}
-        {/*End of .NET Azure OP*/}
+        {/*End of CSharpAzureContainer*/}
         {/*-------------------------------------------------*/}
         <div className="AWS_Guide_Container">
           <h3>
@@ -53,8 +49,7 @@ export default function PortfolioGallery() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              DynamoDB CRUD Guide
-            </a>
+              AWS DynamoDB CRUD Guide</a> (GitHub)
           </h3>
 
           <a
@@ -69,8 +64,8 @@ export default function PortfolioGallery() {
             />
           </a>
           <p className="description">
-            <b>Open-source</b> beginners guide for CRUD operations onto a DynamoDB
-            table, via <b>Lambda functions</b> (with IAM roles). The purpose was to learn AWS, practise documentation and help others at the same time. <b>Complete with code snippets</b>.
+            I created an <b>Open-source</b> beginners guide for CRUD operations onto a DynamoDB
+            table, via <b>Lambda functions</b> (including IAM roles). The purpose was to learn AWS, practise documentation and help others at the same time. <b>Complete with code snippets</b>.
           </p>
         </div>
         {/*-------------------------------------------------*/}
