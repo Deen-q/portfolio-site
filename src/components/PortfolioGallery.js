@@ -15,7 +15,7 @@ export default function PortfolioGallery() {
         😁.
         <br />
         <br />
-        Right click the images/cards and select 'Open Image in new tab' if you
+        Right click the images/cards and select <i>'Open Image in new tab'</i> if you
         wish to see what the image looks like in full.
       </p>
       <div className="PortfolioParentDiv">
@@ -69,9 +69,8 @@ export default function PortfolioGallery() {
             />
           </a>
           <p className="description">
-            Open-source beginners guide for CRUD operations onto a DynamoDB
-            table, via Lambda functions (with IAM roles). Both links lead to the
-            same place 🤯
+            <b>Open-source</b> beginners guide for CRUD operations onto a DynamoDB
+            table, via <b>Lambda functions</b> (with IAM roles). The purpose was to learn AWS, practise documentation and help others at the same time. <b>Complete with code snippets</b>.
           </p>
         </div>
         {/*-------------------------------------------------*/}
@@ -103,13 +102,13 @@ export default function PortfolioGallery() {
           </a>{" "}
           {/*End of anchor tag*/}
           <p className="description">
-            Five week Full Stack project with a team of 6.
+            Full Stack project with a team of 6 developers, following the entire app development cycle (aside from scaling and launching).
             <br></br>
             <b>
               Check out ENTIRE the app life cycle in with the 'Demo Video'
               above!
             </b>{" "}
-            Note:app can be a little slow to display events.
+            <br/><u>Note:</u> app can be slow to display events; allow time for servers to wake up.
           </p>
         </div>{" "}
         {/*End of LocalBuzzContainer*/}
@@ -148,9 +147,9 @@ export default function PortfolioGallery() {
             alt="Screenshot of Website homepage"
           />
           <p className="description">
-            Built with React, from <u>scratch</u>; no or libraries templates
-            here 👀. Check out the useRef buttons the top of the site. This card
-            is not clickable - you're already here!
+            Built with React, from <u>scratch</u>; no templates or libraries here 👀. Check out the <b>useRef (hook)</b> buttons the top of the site. This card
+            is not clickable - you're already here! 
+            <br></br><b>Feedback</b> is encouraged 😁
           </p>
         </div>
         {/*-------------------------------------------------*/}
