@@ -1,0 +1,32 @@
+/* Seems handy: */
+/* https://css-tricks.com/pure-css-horizontal-scrolling/ */
+.stackIconContainer {
+    display: flex;
+    overflow-x: auto;
+}
+
+.iconTile {
+    padding: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.iconTile img {
+    height: 50px;
+}
+
+/* --------- */
+/* 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between; 
+padding-top: 1%; 
+width: 90%; 
+overflow-y: auto; 
+overflow-y: auto;
+overflow-x: hidden;
+width: 100px;
+height: 100px; 
+*/

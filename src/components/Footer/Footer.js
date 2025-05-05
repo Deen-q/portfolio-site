@@ -1,6 +1,6 @@
-import React from "react";
+
+import copyright from "../../images/copyright.png";
 import "./Footer.css";
-import copyright from "./images/copyright.png";
 
 export default function Footer() {
   return (

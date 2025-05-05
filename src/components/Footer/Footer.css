@@ -1,0 +1,28 @@
+.FooterDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--NavBar_FooterColour);
+  color: var(--Maroon);
+  /* padding-top: 0.5%;
+  padding-bottom: 0.5%; */
+  height: 4vh;
+
+  padding: 5px 0 5px 0;
+
+  p {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+.FooterContent {
+  display: flex;
+  align-items: center;
+}
+
+.Copyright img {
+  max-height: 16px;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+}

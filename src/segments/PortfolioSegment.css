@@ -1,0 +1,26 @@
+.portfolioSegment {
+  padding-top: var(--SegmentTopPadding);
+  background-color: var(--Blue1);
+  height: 92vh;
+
+  h3 {
+    margin-top: 2%;
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 10%;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 5%;
+  }
+
+}
+
+.portfolioSegment>.TextContainer a img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.portfolioSegment>.TextContainer a:hover img {
+  transform: scale(0.99);
+}

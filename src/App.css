@@ -1,15 +1,16 @@
-:root {
-  --NavBar_FooterColour:#F1E0C5;
-  --Maroon:#AD6A6C;
-  --DeepPurple: #38023B;
-  --Blue1: #5ca8fe;
-  --Blue2: #77b4fa;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Merriweather:wght@300&display=swap');
 
 * {
+  --NavBarPaddingValue: 20px;
   font-family: 'Merriweather', serif;
+  --NavBar_FooterColour: #F1E0C5;
+  --Maroon: #c45457;
+  --DeepPurple: #38023B;
+  --Blue1: #5ca8fe;
+  --Blue2: #77b4fa;
+
+  /* to remove white space */
+  --SegmentTopPadding: 20%;
 }
 
 html,
@@ -19,46 +20,28 @@ body {
   height: 100%;
 }
 
-.NavBar {
-  background-color: var(--NavBar_FooterColour);
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  padding-top: 2vh;
-  -webkit-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
-    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.28);
+.aboutSegment,
+.portfolioSegment,
+.contactSegment {
+  scroll-margin-top: 30px;
+  /* Match or slightly exceed navbar height */
 }
 
-.NavBarButtons {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 2vh;
+
+h1 {
+  /* font-size: clamp(1.94rem, 4.05vw, 3.24rem); */
+  font-size: clamp(1.5rem, 4.05vw, 3.24rem);
 }
 
-button {
-  background-color: var(--Maroon);
-  border-radius: 8%;
-  cursor: pointer;
-  color: var(--NavBar_FooterColour);
-  transition: transform 0.2s ease-in-out;
+h2 {
+  /* New */
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-button:hover {
-  transform: scale(0.97);
-}
-
-.Home_Segment {
-  background-color: var(--Blue1);
-  display: flex;
-  align-items: center;
-  height: 93vh;
-  padding-top: 2vh;
-  position: relative;
-}
-
-.Home_Segment h1 {
-  margin-top: -4%;
+h3,
+li {
+  /* font-size: clamp(1.2rem, 2.5vw, 2rem); */
+  font-size: clamp(0.8rem, 2.5vw, 2rem);
 }
 
 a img {
@@ -74,211 +57,8 @@ a:hover img {
   padding-right: 15%;
 }
 
-.AvatarContainer {
-  display: flex;
-  justify-content: flex-end;
-  /*Align with right of container*/
-  flex-grow: 1;
-  /*Pushes image to right*/
-}
-
-@keyframes bounce {
-
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  20% {
-    transform: translateY(-20px);
-  }
-
-  80% {
-    transform: translateY(-20px);
-  }
-}
-
-.AvatarImg {
-  width: 50%;
-  padding-right: 20%;
-  animation: bounce 3.5s infinite;
-}
-
-.githubCat {
-  width: 30%;
-  cursor: pointer;
-}
-
-.linkedinIcon {
-  width: 30%;
-  cursor: pointer;
-}
-
-.About_Segment,
-.Contact_Segment {
-  background-color: var(--Blue2);
-  height: 100vh;
-  /*90vh so it mimics the previous page and takes into account the 10vh STICKY NavBar*/
-}
-
-.About_Segment {
-  padding-top: 3%;
-}
-
-.About_Segment >.TextContainer {
-  /*Descendent Selector - only targets direct children of About_Segment*/
-  padding-top: 3%;
-  /*center the text in About_Segment*/
-}
-
-.About_Segment > .TextContainer h3 {
-  /* font-size: 20px; */
-  width: 100%;
-}
-
-.About_Segment > .TextContainer h2 {
-  font-size: 25px;
-  width: 100%;
-}
-
-.Portfolio_Segment {
-  background-color: var(--Blue1);
-  height: 100vh;
-}
-
-.Contact_Segment {
-  height: 84vh;
-  /* Adjust the height to fit below the NavBar */
-  padding-top: calc(10vh + 1px);
-}
-
-.Portfolio_Segment h1,
-.Contact_Segment h1 {
-  margin: 0;
-  /* remove the white streak*/
-}
-
-.About_Segment h3 {
-  margin-top: 3%;
-}
-
-.Portfolio_Segment h1 {
-  padding-top: 9%;
-}
-
-.Portfolio_Segment > .TextContainer a img {
-  transition: transform 0.2s ease-in-out;
-}
-
-.Portfolio_Segment > .TextContainer a:hover img {
-  transform: scale(0.99);
-}
-
-.Contact_Segment h1 {
-  padding-top: 16%
-}
-
-.Contact_Segment h3 {
-  margin-top: 2%;
-}
-
 .LinkedinIconContainer {
-  /*TextContainer attributes were potentially causes clashes, so new div*/
   display: flex;
   justify-content: flex-start;
   padding-top: 1vh;
-}
-
-.linkedinIcon2 {
-  width: 85%;
-  /*for some reason, this makes it exactly the same size as the icon in Home_Segment - I used dev tools to check; both are now 108.05x108.05*/
-}
-
-.Contact_Segment p {
-  font-size: 19.5px;
-}
-
-/* Media Query */
-@media (max-width: 1025px) {
-  .About_Segment {
-    padding-top: 7%;
-  }
-  
-  .Portfolio_Segment {
-    padding-top: 11%;
-  }
-}
-
-@media (max-width: 950px) {
-  .Home_Segment>.TextContainer {
-    font-size: 10px;
-  }
-
-  .About_Segment>.TextContainer h1 {
-    font-size: 17px;
-  }
-
-  .About_Segment>.TextContainer h2 {
-    font-size: 14px;
-  }
-
-  .About_Segment>.TextContainer>h3 {
-    font-size: 12px;
-  }
-
-  .About_Segment>.TextContainer p {
-    font-size: 12px;
-  }
-
-  .About_Segment {
-    padding-top: 22%;
-  }
-
-  .Portfolio_Segment {
-    padding-top: 15%;
-  }
-}
-
-@media (max-width: 768px){
-  .Portfolio_Segment {
-    padding-top: 28%;
-  }
-  
-  .Portfolio_Segment > .TextContainer{
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 427px) {
-  .About_Segment {
-    padding-top: 40%;
-  }
-  
-  .Portfolio_Segment {
-    padding-top: 55%;
-  }
-
-  .AvatarImg {
-    width: 85%;
-    padding-right: 20%;
-    animation: bounce 3.5s infinite;
-  }
-}
-
-@media (max-width: 376px) {
-  .Portfolio_Segment {
-    padding-top: 68%;
-  }
-  h1 {
-    font-size: 11px;
-  }
-}
-
-@media (max-width: 321px) {
-  .Portfolio_Segment {
-    padding-top: 85%;
-  }
-  h1 {
-    font-size: 16px;
-  }
 }

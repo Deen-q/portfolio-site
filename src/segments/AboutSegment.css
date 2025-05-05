@@ -1,0 +1,32 @@
+.aboutSegment {
+    background-color: var(--Blue2);
+    padding-top: var(--SegmentTopPadding);
+    height: 92vh;
+
+    p,
+    li {
+        font-size: clamp(0.7rem, 2.5vw, 2rem);
+    }
+
+    p {
+        margin-top: 0;
+        padding: 5px 0 10px 0;
+    }
+
+    ul {
+        margin-top: 0;
+        padding-left: 10%;
+    }
+
+    h3 {
+        margin-top: 4%;
+    }
+
+    @media (min-width: 1024px) {
+        padding-top: 10%;
+    }
+
+    @media (min-width: 1440px) {
+        padding-top: 5%;
+    }
+}

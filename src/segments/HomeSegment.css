@@ -1,0 +1,89 @@
+.homeSegment {
+    background-color: var(--Blue1);
+    justify-content: center;
+    height: 90vh;
+    /* height: 93vh; */
+
+    h1 {
+        /* margin-top: 0; */
+        margin-top: 10%;
+    }
+
+    h3 {
+        margin: 5% 0 0;
+    }
+
+    h4 {
+        margin-top: 0%;
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        align-items: center;
+        padding-top: 2vh;
+    }
+
+    /* Maybe come back to BEM? Probs not */
+    /* &--text {
+      text-align: center;
+    } */
+}
+
+.homeSegmentText {
+    text-align: center;
+    padding-top: 5%;
+
+    @media (min-width: 768px) {
+        padding-top: 0;
+        text-align: start;
+        padding-left: 15%;
+
+    }
+
+    @media (min-width: 1440px) {
+        padding-right: 15%;
+        padding-left: 0;
+    }
+}
+
+.avatarContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.avatarImg {
+    width: 40%;
+    animation: bounce 3.5s infinite;
+    padding-top: 5%;
+
+    @media (min-width: 768px) {
+        width: 75%;
+        padding-top: 0;
+    }
+
+    @media (min-width: 1024px) {
+        width: 100%;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-20px);
+    }
+}
+
+.githubCat,
+.linkedinIcon {
+    width: 15%;
+    cursor: pointer;
+}
